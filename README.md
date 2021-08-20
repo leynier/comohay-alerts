@@ -1,3 +1,3 @@
 # ComoHay Alerts
 
-Alerts notification system of ComoHay implemented with Typer, PyroGram and Supabase.
+Alerts notification system of [ComoHay](https://comohay.com) implemented with Python.
