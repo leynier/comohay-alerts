@@ -22,7 +22,7 @@ jobs:
         poetry run comohay-alerts
       env:
         GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_REPO_FULL_NAME_OR_ID: ${{ env.GITHUB_REPOSITORY }}
+        GITHUB_REPO_FULL_NAME_OR_ID: ${{ github.repository }}
         SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
         SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
