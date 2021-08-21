@@ -1,4 +1,3 @@
-
 name: Action
 on:
   workflow_dispatch:
@@ -20,11 +19,11 @@ jobs:
     - name: Run
       run: |
         poetry install
-        poetry run comohay-alerts run
+        poetry run comohay-alerts
       env:
-        GITHUB_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPO_FULL_NAME_OR_ID: ${{ GITHUB_REPOSITORY }}
         SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
         SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-  
