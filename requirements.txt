@@ -41,7 +41,7 @@ sniffio==1.2.0; python_version >= "3.7" and python_version < "4.0" and python_fu
 soupsieve==2.2.1; python_version >= "3.6"
 supabase-py==0.0.2; python_full_version >= "3.7.1" and python_full_version < "4.0.0"
 toml==0.10.2; python_full_version >= "3.7.1" and python_full_version < "4.0.0" and python_version >= "3.6"
-tornado==6.1; python_version >= "3.6"
+tornado==6.3.2; python_version >= "3.6"
 typer==0.3.2; python_version >= "3.6"
 typing-extensions==3.7.4.3; python_full_version >= "3.6.1"
 tzdata==2021.1; platform_system == "Windows" and python_version >= "3.6"
