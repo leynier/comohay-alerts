@@ -26,7 +26,7 @@ pycparser==2.20; python_version >= "3.6" and python_full_version < "3.0.0" or py
 pydantic==1.8.2; python_full_version >= "3.6.1"
 pygithub==1.55; python_version >= "3.6"
 pyjwt==2.4.0; python_version >= "3.6"
-pynacl==1.4.0; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6"
+pynacl==1.6.2; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6"
 pyparsing==2.4.7; python_full_version >= "3.7.1" and python_full_version < "4.0.0" and python_version >= "3.6"
 pytest==6.2.4; python_full_version >= "3.7.1" and python_full_version < "4.0.0" and python_version >= "3.6"
 python-dateutil==2.8.2; python_version >= "3.7" and python_version < "4.0" and python_full_version >= "3.7.1" and python_full_version < "4.0.0"
