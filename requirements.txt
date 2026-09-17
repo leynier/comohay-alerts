@@ -38,7 +38,7 @@ requests==2.25.1; (python_version >= "2.7" and python_full_version < "3.0.0") or
 rfc3986==1.5.0; python_version >= "3.7" and python_version < "4.0" and python_full_version >= "3.7.1" and python_full_version < "4.0.0"
 six==1.16.0; python_full_version >= "3.7.1" and python_version >= "3.7" and python_version < "4.0" and python_full_version < "4.0.0"
 sniffio==1.2.0; python_version >= "3.7" and python_version < "4.0" and python_full_version >= "3.7.1" and python_full_version < "4.0.0"
-soupsieve==2.8.4; python_version >= "3.6"
+soupsieve==2.9; python_version >= "3.6"
 supabase-py==0.0.2; python_full_version >= "3.7.1" and python_full_version < "4.0.0"
 toml==0.10.2; python_full_version >= "3.7.1" and python_full_version < "4.0.0" and python_version >= "3.6"
 tornado==6.5.8; python_version >= "3.6"
